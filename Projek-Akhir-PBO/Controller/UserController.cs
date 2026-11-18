@@ -22,7 +22,6 @@ namespace EDATRACK.Controller
             }
         }
 
-        // Otomatis menambahkan kolom password_plain jika belum ada di tabel users
         private void PastikanKolomPasswordAda(NpgsqlConnection koneksi)
         {
             string alterQuery =
@@ -33,7 +32,6 @@ namespace EDATRACK.Controller
             }
         }
 
-        // Ambil semua akun pekerja dari database
         public List<Pekerja> GetSemuaPekerja()
         {
             List<Pekerja> daftar = new List<Pekerja>();
