@@ -1,10 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Data;
 
 namespace EDATRACK.Model
 {
-    internal class Pekerja
+    public class Pekerja : Pengguna
     {
+        public Pekerja()
+        {
+            Role = "Pekerja";
+            StatusAktif = true;
+        }
+
+        public override string TampilkanDashboard()
+        {
+            return "Dashboard Pekerja: Catat penerimaan, grading, proses produksi, dan QC.";
+        }
     }
 }
