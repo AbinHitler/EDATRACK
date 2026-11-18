@@ -1,10 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace EDATRACK.Model
+﻿namespace EDATRACK.Model
 {
-    internal class ProsesBlanching
+    public class ProsesBlanching : TahapProduksi
     {
+        public decimal SuhuCelsius { get; set; }
+        public decimal DurasiMenit { get; set; }
+        
+
+        public override string GetJenisProses()
+        {
+            return "Blanching";
+        }
     }
 }
