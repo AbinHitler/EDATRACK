@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Projek_Akhir_PBO.Model
+﻿namespace EDATRACK.Model
 {
-    internal class ProsesIQF
+    public class ProsesIQF : TahapProduksi
     {
+        public decimal SuhuCelsius { get; set; }
+        public decimal DurasiMenit { get; set; }
+
+        public override string GetJenisProses()
+        {
+            return "IQF";
+        }
     }
 }
