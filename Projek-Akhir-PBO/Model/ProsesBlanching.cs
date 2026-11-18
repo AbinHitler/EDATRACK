@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EDATRACK.Model
 {
-    internal class ProsesBlancing
+    internal class ProsesBlanching
     {
     }
 }
