@@ -1,4 +1,4 @@
-﻿using Projek_Akhir_PBO.Model;
+﻿using EDATRACK.Model;
 using System;
 
 namespace EDATRACK.Model
