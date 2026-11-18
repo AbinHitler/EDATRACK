@@ -10,7 +10,6 @@ namespace EDATRACK.Controller
     {
         private PenerimaanController penerimaanController = new PenerimaanController();
 
-        // Simpan hasil grading
         public void Simpan(Grading data)
         {
             // Validasi total berat grading tidak melebihi berat bahan baku
@@ -55,7 +54,6 @@ namespace EDATRACK.Controller
             }
         }
 
-        // Ambil semua data grading
         public List<Grading> GetSemua()
         {
             List<Grading> daftar = new List<Grading>();

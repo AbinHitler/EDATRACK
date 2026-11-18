@@ -39,14 +39,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvGrading)).BeginInit();
             this.SuspendLayout();
 
-            // Form
             this.Text = "Grading dan Klasifikasi Mutu";
             this.Size = new System.Drawing.Size(900, 680);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Load += new System.EventHandler(this.FormGrading_Load);
 
-            // lblJudul
             this.lblJudul.Text = "Grading dan Klasifikasi Mutu";
             this.lblJudul.Font = new System.Drawing.Font("Arial", 14, System.Drawing.FontStyle.Bold);
             this.lblJudul.ForeColor = System.Drawing.Color.DarkGreen;
@@ -54,7 +52,6 @@
             this.lblJudul.Size = new System.Drawing.Size(400, 30);
             this.lblJudul.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 
-            // panelInput
             this.panelInput.Name = "panelInput";
             this.panelInput.Location = new System.Drawing.Point(15, 55);
             this.panelInput.Size = new System.Drawing.Size(290, 580);
@@ -147,7 +144,6 @@
             this.panelInput.Controls.Add(this.txtReject);
             this.panelInput.Controls.Add(this.btnSimpanGrading);
 
-            // dgvGrading
             this.dgvGrading.Name = "dgvGrading";
             this.dgvGrading.Location = new System.Drawing.Point(320, 55);
             this.dgvGrading.Size = new System.Drawing.Size(555, 580);
