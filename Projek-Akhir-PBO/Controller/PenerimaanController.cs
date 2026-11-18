@@ -8,7 +8,6 @@ namespace EDATRACK.Controller
 {
     public class PenerimaanController
     {
-        
         public void Simpan(DataPenerimaan data)
         {
             if (string.IsNullOrEmpty(data.KodeBatch))
